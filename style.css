@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @media (min-width: 600px) {
+    #navbar {
+      display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      font-size: 1.3em;
+      background-color: #23003d;
+      color: #fff;
+    }
+  }
+  
+  #navbar ul {
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  #navbar li {
+    display: block;
+    float: left;
+    padding: 0px 1em 0px 1em;
+  }
+  
+  #navbar li:hover {
+    background-color: #3d3000;
+  }
+  
+  #navbar a {
+    color: #fff;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+  }
+
+  #navbar a:visited {
+    color: #fff;
+  }
+  
+  #welcome-section {
+    text-align: center;
+    background-color: #23003d;
+    color: #fff;
+    height: 100vh;
+    font-size: 2em;
+  }
+
+  #welcome-section h1 {
+      padding-top: 50vh;
+  }
+  
+  #projects {
+    background-color: #000000;
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+  }
+  
+  #projects h2 {
+    font-size: 3em;
+    margin-bottom: 65px;
+    color: #fff;
+  }
+
+  .projects-area {
+      background-color: #000000;
+      display: flex;
+  }
+  
+  .web-java-projects {
+    font-size: 1.5em;
+    background-color: #23003d;
+    text-decoration: none;
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+  }
+
+  .project-tile {
+    text-decoration: none;
+  }
+  
+  .project-tile p {
+    background-color: #23003d;
+    color: #fff;
+    width: 420px;
+  }
+  
+  .project-image {
+    width: 420px;
+  }
+
+  #all-projects {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #23003d;
+    padding: 5px;
+  }
+
+  #contact {
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    background-color: #23003d;
+  }
+
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+
+  .contacts {
+    margin: 15px;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+  }
+
+  .contacts:hover {
+    /* background-color: #3d3000; */
+    animation-name: link-movement;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes link-movement {
+    100% {
+      background-color: #3d3000;
+    }
+  }
